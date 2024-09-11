@@ -8,7 +8,7 @@ const HomeCard = ({
     <>
       <div className="box">
         <div className="coverImage">
-          <img src={cover} alt="" />
+          <img src={cover} alt="cover" />
         </div>
         <div className="content flex">
           <div className="details row">
@@ -48,8 +48,8 @@ const HomeCard = ({
             <Link to={`/singlepage/${id}`}>
               <button>
                 <div className="img">
-                  <img src="./images/play-button.png" alt="" />
-                  <img src="./images/play.png" className="change" />
+                  <img src="./images/play-button.png" alt="play-button" />
+                  <img src="./images/play.png" className="change" alt="play" />
                 </div>
                 WATCH TRAILER
               </button>

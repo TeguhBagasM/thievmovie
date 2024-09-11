@@ -50,9 +50,15 @@ const SinglePage = () => {
               </div>
               <div className="soical">
                 <h3>Share : </h3>
-                <img src="https://img.icons8.com/color/48/000000/facebook-new.png" />
-                <img src="https://img.icons8.com/fluency/48/000000/twitter-circled.png" />
-                <img src="https://img.icons8.com/fluency/48/000000/linkedin-circled.png" />
+                <img src="https://img.icons8.com/color/48/000000/facebook-new.png" alt="fb" />
+                <img
+                  src="https://img.icons8.com/fluency/48/000000/twitter-circled.png"
+                  alt="twitter"
+                />
+                <img
+                  src="https://img.icons8.com/fluency/48/000000/linkedin-circled.png"
+                  alt="linkedin"
+                />
               </div>
             </div>
           </section>
